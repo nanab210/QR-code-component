@@ -1,56 +1,77 @@
 /*------- General Styles ----------*/
 
 html {
-  font-family: "Outfit", sans-serif;
-  background-color: #d5e1ef;
   font-size: 15px;
 }
 
-h3 {
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+}
+
+h2 {
   color: #1f3251;
   font-weight: 700;
+  text-align: center;
 }
+
 p {
   color: #7b879d;
+  font-weight: 400;
+  text-align: center;
 }
 
-/*------ Desktop ------*/
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-}
-
-
-.qr-code-wrapper {
-    
-    background-color: #fff;
-    max-width: 25%;
-    border-radius: 5%;
-    text-align: center;
-    padding: 10px;  
-
-}
-
-.qr-code img {
-  border-radius: 5%;
-  max-width: 80%;
-}
-
-
-
-
-/*------Footer------*/
+/*------ Footer ------*/
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 100px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (min-width: 375px) {
+  /*----- QR Code Container -----*/
 
-/*@media only screen and (min-width: 375px)
-@media only screen and (min-width: 1200px)
+  .container {
+    max-width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .qr-code-wrapper {
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .qr-code img {
+    border-radius: 5%;
+    max-width: 100%;
+  }
+
+  .qr-text {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*------ Desktop ------*/
+
+  .container {
+    max-width: 1440px;
+  }
+
+  .qr-code-wrapper {
+    width: 320px;
+    height: 500px;
+  }
+}

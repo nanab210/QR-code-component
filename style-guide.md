@@ -9,10 +9,10 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
+- White: hsl(0, 0%, 100%) qr card
+- Light gray: hsl(212, 45%, 89%) p text
+- Grayish blue: hsl(220, 15%, 55%) Shadow
+- Dark blue: hsl(218, 44%, 22%) h3 text
 
 ## Typography
 
