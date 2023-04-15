@@ -1,12 +1,13 @@
 /*------- General Styles ----------*/
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
   font-family: "Outfit", sans-serif;
   background-color: #d5e1ef;
+  margin-top: 100px;
 }
 
 h2 {
@@ -30,11 +31,11 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
 
 @media only screen and (min-width: 375px) {
-  /*----- QR Code Container -----*/
+  /*----- Mobile Screens -----*/
 
   .container {
     max-width: 680px;
@@ -64,7 +65,7 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*------ Desktop ------*/
+  /*------ Desktop Screens ------*/
 
   .container {
     max-width: 1440px;
